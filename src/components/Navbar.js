@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
-  return (
-    <nav className="navbar navbar-dark navbar-expand-lg bg-primary">
+const Navbar = () => (
+  <nav className="navbar navbar-dark navbar-expand-lg bg-primary">
+    <div className="container">
       <div className="navbar-brand">
         Note app
       </div>
@@ -15,7 +15,7 @@ const Navbar = () => {
           <NavLink to="/about" className="nav-link">About</NavLink>
         </li>
       </ul>
-    </nav>
-  );
-};
+    </div>
+  </nav>
+);
 export default Navbar;
