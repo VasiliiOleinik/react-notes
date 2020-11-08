@@ -28,5 +28,8 @@ module.exports = {
         "video": [ "Video" ],
         "track": [ "Track" ],
       }],
+    "import/prefer-default-export": "off",
+    // "react/jsx-curly-brace-presence": ["error", { "props": "ignore", "children": "ignore" }],
+    // "arrow-body-style": 0,
   }
 };
