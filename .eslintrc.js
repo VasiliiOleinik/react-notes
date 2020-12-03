@@ -31,6 +31,6 @@ module.exports = {
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
     // "react/jsx-curly-brace-presence": ["error", { "props": "ignore", "children": "ignore" }],
-    // "arrow-body-style": 0,
+    "arrow-body-style": 0,
   }
 };
